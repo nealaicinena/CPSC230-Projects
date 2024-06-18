@@ -1,0 +1,8 @@
+
+totalPlayers = "/Users/nealdabananapeel/Documents/MLB_Code/All_MLB_Players.txt"
+desiredPlayer = "Aaron Judge"
+
+with open('All_MLB_Players.txt', 'r') as file:
+    for line in file:
+        if(line == desiredPlayer):
+            print(line)
